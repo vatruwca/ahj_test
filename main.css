@@ -1,0 +1,159 @@
+html, body {
+	width: 100%;
+	margin: 0;
+	
+}  
+
+body {
+    background-color: rgb(212, 218, 216);
+  }
+  
+  .validator_body {
+    width: 70%;
+    min-width: 400px;
+    margin: 0 auto;	  
+    display: flex;
+    align-items: flex-start;    
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .validator_content {
+    width: 100%;
+    border: 3px solid #000;  
+    border-radius: 5px;
+    padding: 10px;
+    background-color: rgb(233, 213, 193);
+  }
+  
+  .validator_tittle {
+    text-align: center;
+    font-size: 25px;
+  }
+  
+  .widget_list {
+    width: 100%;
+    display: flex;	
+	  flex-wrap: wrap;
+	  justify-content: space-between;	
+  } 
+  
+  .card {   
+    display: flex;
+	  position: relative;     
+    min-height: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    flex-grow: 1;
+  }
+
+
+
+  
+  .cardSelected {
+    border: 5px solid rgb(81, 20, 222);
+    border-radius: 5px;
+  }
+  
+  .cardDisabled {
+    opacity: 0.3;
+  }
+  
+  .amex {
+    background-image: url(3ba229eeb7e304d46b3c.png);
+  }
+  
+  .diners {
+    background-image: url(f2da035a90d0b6bff87d.png);
+  }
+  
+  .discover {
+    background-image: url(eb571d487eaf59486a3d.png);
+  }
+  
+  .jcb {
+    background-image: url(280f214adcd474c24553.png);
+  }
+  
+  .mir {
+    background-image: url(57a5dc4f2872def6dc06.png);
+  }
+  
+  .visa {
+    background-image: url(c85da82f0431a32984d8.png);
+  }
+  
+  .mastercard {
+    background-image: url(5cd208e664c2ff116503.png);
+  }
+  
+  ul,
+  li {
+    list-style-type: none;
+  }
+  ul{
+    padding: 0;
+  }
+  
+  img {
+    vertical-align: top;
+  }
+  
+  
+  .widget_input {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .input {
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding: 10px 10px;  
+    flex: 1;
+    font-size: 20px;
+  }
+  
+  .button {
+    position: relative;
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding: 20px 40px;
+    font-size: medium;
+    background-color: rgb(42, 106, 45);
+    color: rgb(10, 9, 9);  
+    margin-left: 10px;  
+  }
+  
+  .button:hover {
+    background-color: rgb(90, 57, 182);  
+  }
+  
+  .result_text {
+    text-align: center;
+    font-size: 30px;  
+  }
+  
+  
+  .result {
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #000;
+    border-radius: 5px;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  .valid {
+    background-color: rgb(49, 220, 69);
+    color: rgb(2, 26, 2);
+  }
+  
+  .invalid {
+    background-color: darksalmon;
+    color: darkred;
+  }
